@@ -1,7 +1,5 @@
 FROM gitpod/workspace-full
 
-# Install custom tools, runtimes, etc.
-# Uncomment the line below if you want to install "bastet"
-# RUN brew install bastet
+USER gitpod
 
-# Add any other necessary installations or configurations below
+# Add any additional dependencies or configurations if required
