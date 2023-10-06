@@ -4,5 +4,5 @@ image:
 tasks:
   - name: Install Ionic & Firebase CLI
     init: |
-      npm install -g @ionic/cli @angular/cli firebase-tools
-    command: firebase login --no-localhost
+      npm i -g @ionic/cli @angular/cli firebase-tools
+    command: firebase login --no-localhost && cd functions && npm i && cd ../
